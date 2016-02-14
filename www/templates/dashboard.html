@@ -1,0 +1,16 @@
+<ion-view title="Dashboard">
+	<ion-content class="has-header" padding="true">
+		<form class="list" name="myform">
+			<!-- <label class="item item-input" name="Language"> <i class="icon ion-search placeholder-icon"></i> <!--<input type="text" placeholder="Language" name="lang" ng-model="dashboardCtrl.localMovies.lang" ng-minlength=1 ng-disabled="myform.movie.$valid" required>
+			<input type="text" placeholder="Language" name="lang">
+			</label>
+			<span> OR </span> -->
+			<label class="item item-input" name="Movie"> <i class="icon ion-search placeholder-icon"></i> <!--<input type="text" placeholder="Name of Movie" name="movie" ng-model="dashboardCtrl.localMovies.movie" ng-minlength=1 ng-disabled="myform.lang.$valid" required>-->
+				<input type="text" placeholder="Name of Movie" name="movie" ng-model="movie">
+			</label>
+		</form> 
+		<a class="button button-positive button-block " href="#/page1/page3/{{movie}}">Search</a>
+		
+		<movie-ratings></movie-ratings>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,55 @@
+<ion-view title="Search Results">
+	<ion-content class="has-header" padding="true" ng-show="visible">
+		<div class="list card">
+
+			<div class="item item-avatar">
+				<img ng-src="{{result.Poster}}" style="width: 175px; height:200px;" >
+				<h2>{{result.Title}}</h2>
+				<p>
+					{{result.Genre}}
+				</p>
+
+			</div>
+			<movie-ratings rating="10"></movie-ratings>
+			<div class="item item-image">
+				<img ng-src="{{result.Poster}}" style="width: 175px; height:200px;" >
+			</div>
+			<div ng-click="showTrailer()" class="item item-thumbnail-left">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>Watch Trailer</u>
+			</div>
+			<!-- <div class="padding">
+			<object width="100%" height="150">
+			<param name="movie" value="https://www.youtube.com/v/AIzaSyCZMt_fwVVvfRooVrd3yh9N0qjCHNtxmWg?version=3&amp;hl=uk_UA&amp;rel=0"></param>
+			<param name="allowFullScreen" value="true"></param
+			<param name="allowscriptaccess" value="always"></param>
+			<embed src="https://www.youtube.com/v/WzhW20hLp6M?version=3&amp;hl=uk_UA&amp;rel=0" type="application/x-shockwave-flash" width="100%" height="150" allowscriptaccess="always" allowfullscreen="true"></embed>
+			</object>
+			</div> -->
+		</div>
+	</ion-content>
+</ion-view>
+
+<!-- <ion-view title="Search Results">
+<ion-content class="has-header" padding="true" ng-show="visible">
+<!-- <form class="list">
+<ion-item class="item-thumbnail-left"> -->
+<!-- img ng-src="{{result.Poster}}" style="width: 175px; height:200px;" >
+<h2>{{result.Title}}</h2>
+<p>
+{{result.Genre}}
+</p> -->
+<!-- </ion-item> -->
+<!-- <ion-item class="item-thumbnail-left">
+<img src="img/d1LESCotTDGCbU3UJI2n_Spectre.jpg">
+<h2>Spectre</h2>
+<p>Action</p>
+</ion-item>
+<ion-item class="item-thumbnail-left">
+<img src="img/wxG0gJjDQnqZIylNqyHb_Ice_age_5.jpg">
+<h2>Ice age 5</h2>
+<p>Animation, Comedy</p>
+</ion-item> -->
+<!-- </form> -->
+<!-- </ion-content>
+</ion-view> -->
+-->
